@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns ="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="cmdAbout" Symbol="ID_BTN_ABOUT" LabelTitle="About">
+      <Command.LargeImages>
+        <Image>
+          Images/About.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdExit" Symbol="ID_BTN_EXIT" LabelTitle="Thoát">
+      <Command.LargeImages>
+        <Image>
+          Images/CloseWindow.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdAdd" Symbol="ID_BTN_ADD" LabelTitle="Thêm" TooltipTitle="Thêm công việc mới vào danh sách hiện tại.">
+      <Command.LargeImages>
+        <Image>
+          Images/Add.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdNew" Symbol="ID_BTN_NEW" LabelTitle="New" TooltipTitle="Tạo mới danh sách công việc.">
+      <Command.LargeImages>
+        <Image>
+          Images/New.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdSave" Symbol="ID_BTN_SAVE" LabelTitle="Save" TooltipTitle="Lưu danh sách các công việc hiện tại.">
+      <Command.LargeImages>
+        <Image>
+          Images/Save.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdSaveAs" Symbol="ID_BTN_SAVEAS" LabelTitle="SaveAs" TooltipTitle="Lưu danh sách các công việc hiện tại vào nơi khác.">
+      <Command.LargeImages>
+        <Image>
+          Images/SaveAs.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdOpen" Symbol="ID_BTN_OPEN" LabelTitle="Open" TooltipTitle="Mở danh sách các công việc đã lưu.">
+      <Command.LargeImages>
+        <Image>
+          Images/Open.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdSortAsc" Symbol="ID_BTN_SORTASC" LabelTitle="Tăng dần" TooltipTitle="Sắp xếp danh sách công việc tăng dần.">
+      <Command.LargeImages>
+        <Image>
+          Images/Ascending.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+    
+    <Command Name="cmdSortDesc" Symbol="ID_BTN_SORTDESC" LabelTitle="Giảm dần" TooltipTitle="Sắp xếp danh sách công việc giảm dần.">
+      <Command.LargeImages>
+        <Image>
+          Images/Descending.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdSortAscName" Symbol="ID_BTN_SORTASCNAME" LabelTitle="Tên công việc">
+      <Command.LargeImages>
+        <Image>
+          Images/Name.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSortAscPriority" Symbol="ID_BTN_SORTASCPRIORITY" LabelTitle="Độ ưu tiên">
+      <Command.LargeImages>
+        <Image>
+          Images/Priority.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSortAscTimePercent" Symbol="ID_BTN_SORTASCTIMEPERCENT" LabelTitle="Phần trăm thời gian">
+      <Command.LargeImages>
+        <Image>
+          Images/TimePercent.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdSortDescName" Symbol="ID_BTN_SORTDESCNAME" LabelTitle="Tên công việc">
+      <Command.LargeImages>
+        <Image>
+          Images/Name.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSortDescPriority" Symbol="ID_BTN_SORTDESCPRIORITY" LabelTitle="Độ ưu tiên">
+      <Command.LargeImages>
+        <Image>
+          Images/Priority.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSortDescTimePercent" Symbol="ID_BTN_SORTDESCTIMEPERCENT" LabelTitle="Phần trăm thời gian">
+      <Command.LargeImages>
+        <Image>
+          Images/TimePercent.png
+        </Image>
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="cmdTabHome" LabelTitle="Home"/>
+    <Command Name="cmdGroupExit" LabelTitle="Đóng chương trình"/>
+    <Command Name="cmdGroupSaveOpen" LabelTitle="Lưu/Mở"/>
+    <Command Name="cmdGroupFunction" LabelTitle="Thêm công việc"/>
+    <Command Name="cmdGroupNew" LabelTitle="Tạo mới"/>
+
+    <Command Name="cmdTabSort" LabelTitle="Sắp xếp"/>
+    <Command Name="cmdGroupSort" LabelTitle="Kiểu sắp xếp"/>
+  </Application.Commands>
+
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu>
+
+          <!-- Menu items collection. -->
+          <MenuGroup>
+            <Button CommandName="cmdAbout" />
+            <Button CommandName="cmdExit" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdTabHome">
+          <Group CommandName="cmdGroupNew" SizeDefinition="OneButton">
+            <Button CommandName="cmdNew"/>
+          </Group>
+          
+          <Group CommandName="cmdGroupSaveOpen" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdSave"/>
+            <Button CommandName="cmdSaveAs"/>
+            <Button CommandName="cmdOpen"/>
+          </Group>
+          
+          <Group CommandName="cmdGroupFunction" SizeDefinition="OneButton">
+            <Button CommandName="cmdAdd"/>
+          </Group>
+        </Tab>
+
+        <Tab CommandName="cmdTabSort">
+          <Group CommandName="cmdGroupSort" SizeDefinition="TwoButtons">
+            <DropDownButton CommandName='cmdSortAsc'>
+              <MenuGroup Class='MajorItems'>
+                <Button CommandName="cmdSortAscPriority" />
+                <Button CommandName="cmdSortAscTimePercent" />
+                <Button CommandName='cmdSortAscName' />
+              </MenuGroup>
+            </DropDownButton>
+
+            <DropDownButton CommandName='cmdSortDesc'>
+              <MenuGroup Class='MajorItems'>
+                <Button CommandName="cmdSortDescPriority" />
+                <Button CommandName="cmdSortDescTimePercent" />
+                <Button CommandName='cmdSortDescName' />
+              </MenuGroup>
+            </DropDownButton>
+          </Group>
+        </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>

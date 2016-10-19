@@ -1,0 +1,173 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_ABOUT_LabelTitle_RESID L"About" /* LabelTitle ID_BTN_ABOUT_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_ABOUT_LargeImages_RESID    IMAGE    "Images\\About.png" /* LargeImages ID_BTN_ABOUT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_EXIT_LabelTitle_RESID L"Tho\x00e1t" /* LabelTitle ID_BTN_EXIT_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_EXIT_LargeImages_RESID    IMAGE    "Images\\CloseWindow.png" /* LargeImages ID_BTN_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_ADD_LabelTitle_RESID L"Th\x00eam" /* LabelTitle ID_BTN_ADD_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_ADD_TooltipTitle_RESID L"Th\x00eam c\x00f4ng vi\x1ec7c m\x1edbi v\x00e0o danh s\x00e1ch hi\x1ec7n t\x1ea1i." /* TooltipTitle ID_BTN_ADD_TooltipTitle_RESID: (null) */
+END
+
+ID_BTN_ADD_LargeImages_RESID    IMAGE    "Images\\Add.png" /* LargeImages ID_BTN_ADD_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW_LabelTitle_RESID L"New" /* LabelTitle ID_BTN_NEW_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_NEW_TooltipTitle_RESID L"T\x1ea1o m\x1edbi danh s\x00e1ch c\x00f4ng vi\x1ec7c." /* TooltipTitle ID_BTN_NEW_TooltipTitle_RESID: (null) */
+END
+
+ID_BTN_NEW_LargeImages_RESID    IMAGE    "Images\\New.png" /* LargeImages ID_BTN_NEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_BTN_SAVE_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVE_TooltipTitle_RESID L"L\x01b0u danh s\x00e1ch c\x00e1c c\x00f4ng vi\x1ec7c hi\x1ec7n t\x1ea1i." /* TooltipTitle ID_BTN_SAVE_TooltipTitle_RESID: (null) */
+END
+
+ID_BTN_SAVE_LargeImages_RESID    IMAGE    "Images\\Save.png" /* LargeImages ID_BTN_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVEAS_LabelTitle_RESID L"SaveAs" /* LabelTitle ID_BTN_SAVEAS_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SAVEAS_TooltipTitle_RESID L"L\x01b0u danh s\x00e1ch c\x00e1c c\x00f4ng vi\x1ec7c hi\x1ec7n t\x1ea1i v\x00e0o n\x01a1i kh\x00e1c." /* TooltipTitle ID_BTN_SAVEAS_TooltipTitle_RESID: (null) */
+END
+
+ID_BTN_SAVEAS_LargeImages_RESID    IMAGE    "Images\\SaveAs.png" /* LargeImages ID_BTN_SAVEAS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_BTN_OPEN_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_OPEN_TooltipTitle_RESID L"M\x1edf danh s\x00e1ch c\x00e1c c\x00f4ng vi\x1ec7c \x0111\x00e3 l\x01b0u." /* TooltipTitle ID_BTN_OPEN_TooltipTitle_RESID: (null) */
+END
+
+ID_BTN_OPEN_LargeImages_RESID    IMAGE    "Images\\Open.png" /* LargeImages ID_BTN_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTASC_LabelTitle_RESID L"T\x0103ng d\x1ea7n" /* LabelTitle ID_BTN_SORTASC_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTASC_TooltipTitle_RESID L"S\x1eafp x\x1ebfp danh s\x00e1ch c\x00f4ng vi\x1ec7c t\x0103ng d\x1ea7n." /* TooltipTitle ID_BTN_SORTASC_TooltipTitle_RESID: (null) */
+END
+
+ID_BTN_SORTASC_LargeImages_RESID    IMAGE    "Images\\Ascending.png" /* LargeImages ID_BTN_SORTASC_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTDESC_LabelTitle_RESID L"Gi\x1ea3m d\x1ea7n" /* LabelTitle ID_BTN_SORTDESC_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTDESC_TooltipTitle_RESID L"S\x1eafp x\x1ebfp danh s\x00e1ch c\x00f4ng vi\x1ec7c gi\x1ea3m d\x1ea7n." /* TooltipTitle ID_BTN_SORTDESC_TooltipTitle_RESID: (null) */
+END
+
+ID_BTN_SORTDESC_LargeImages_RESID    IMAGE    "Images\\Descending.png" /* LargeImages ID_BTN_SORTDESC_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTASCNAME_LabelTitle_RESID L"T\x00ean c\x00f4ng vi\x1ec7c" /* LabelTitle ID_BTN_SORTASCNAME_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SORTASCNAME_LargeImages_RESID    IMAGE    "Images\\Name.png" /* LargeImages ID_BTN_SORTASCNAME_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTASCPRIORITY_LabelTitle_RESID L"\x0110\x1ed9 \x01b0u ti\x00ean" /* LabelTitle ID_BTN_SORTASCPRIORITY_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SORTASCPRIORITY_LargeImages_RESID    IMAGE    "Images\\Priority.png" /* LargeImages ID_BTN_SORTASCPRIORITY_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTASCTIMEPERCENT_LabelTitle_RESID L"Ph\x1ea7n tr\x0103m th\x1eddi gian" /* LabelTitle ID_BTN_SORTASCTIMEPERCENT_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SORTASCTIMEPERCENT_LargeImages_RESID    IMAGE    "Images\\TimePercent.png" /* LargeImages ID_BTN_SORTASCTIMEPERCENT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTDESCNAME_LabelTitle_RESID L"T\x00ean c\x00f4ng vi\x1ec7c" /* LabelTitle ID_BTN_SORTDESCNAME_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SORTDESCNAME_LargeImages_RESID    IMAGE    "Images\\Name.png" /* LargeImages ID_BTN_SORTDESCNAME_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTDESCPRIORITY_LabelTitle_RESID L"\x0110\x1ed9 \x01b0u ti\x00ean" /* LabelTitle ID_BTN_SORTDESCPRIORITY_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SORTDESCPRIORITY_LargeImages_RESID    IMAGE    "Images\\Priority.png" /* LargeImages ID_BTN_SORTDESCPRIORITY_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_SORTDESCTIMEPERCENT_LabelTitle_RESID L"Ph\x1ea7n tr\x0103m th\x1eddi gian" /* LabelTitle ID_BTN_SORTDESCTIMEPERCENT_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_SORTDESCTIMEPERCENT_LargeImages_RESID    IMAGE    "Images\\TimePercent.png" /* LargeImages ID_BTN_SORTDESCTIMEPERCENT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdTabHome_LabelTitle_RESID L"Home" /* LabelTitle cmdTabHome_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupExit_LabelTitle_RESID L"\x0110\x00f3ng ch\x01b0\x01a1ng tr\x00ecnh" /* LabelTitle cmdGroupExit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupSaveOpen_LabelTitle_RESID L"L\x01b0u/M\x1edf" /* LabelTitle cmdGroupSaveOpen_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupFunction_LabelTitle_RESID L"Th\x00eam c\x00f4ng vi\x1ec7c" /* LabelTitle cmdGroupFunction_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupNew_LabelTitle_RESID L"T\x1ea1o m\x1edbi" /* LabelTitle cmdGroupNew_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdTabSort_LabelTitle_RESID L"S\x1eafp x\x1ebfp" /* LabelTitle cmdTabSort_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupSort_LabelTitle_RESID L"Ki\x1ec3u s\x1eafp x\x1ebfp" /* LabelTitle cmdGroupSort_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "Ribbon.bml"
